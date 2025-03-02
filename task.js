@@ -1,3 +1,7 @@
+document.getElementById("discover").addEventListener("click", function () {
+    window.location.href = "blogs.html"
+});
+
 function currentTime() {
   const current = new Date();
   return current.toLocaleTimeString("en-US", {
@@ -236,7 +240,7 @@ document.getElementById("btn-6").addEventListener("click", function (event) {
   }
 });
 
-document.getElementById("clr-hst").addEventListener("click", function(){
-    console.log("pool")
-     document.getElementById("activity").innerText=""
-})
+document.getElementById("clr-hst").addEventListener("click", function () {
+  console.log("siuuu");
+  document.getElementById("activity").innerText = "";
+});
