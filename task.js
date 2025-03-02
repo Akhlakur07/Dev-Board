@@ -2,6 +2,13 @@ document.getElementById("discover").addEventListener("click", function () {
     window.location.href = "blogs.html"
 });
 
+document.getElementById("theme-btn").addEventListener("click", function () {
+    const colors = ["beige", "silver", "yellow", "aliceblue", "mediumorchid", "mediumpurple", "palegreen", "paleturquoise", "pink", "plum", "powderblue", "	seashell", "skyblue", "slateblue", "snow", "whitesmoke", "black"];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
+});
+
+
 function currentTime() {
   const current = new Date();
   return current.toLocaleTimeString("en-US", {
