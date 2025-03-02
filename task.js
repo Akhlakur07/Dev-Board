@@ -34,23 +34,23 @@ document.getElementById("btn-2").addEventListener("click", function (event) {
     alert("Congrats!!! You have completed all the current tasks");
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
-    const card1 = document.getElementById("cloud").innerText;
+    const title = document.getElementById("cloud").innerText;
 
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
     act.appendChild(para);
   } else {
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
 
-    const card1 = document.getElementById("cloud").innerText;
+    const title = document.getElementById("cloud").innerText;
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
 
     act.appendChild(para);
@@ -72,23 +72,23 @@ document.getElementById("btn-1").addEventListener("click", function (event) {
     alert("Congrats!!! You have completed all the current tasks");
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
-    const card1 = document.getElementById("shop").innerText;
+    const title = document.getElementById("shop").innerText;
 
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
     act.appendChild(para);
   } else {
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
 
-    const card1 = document.getElementById("shop").innerText;
+    const title = document.getElementById("shop").innerText;
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
 
     act.appendChild(para);
@@ -110,23 +110,23 @@ document.getElementById("btn-3").addEventListener("click", function (event) {
     alert("Congrats!!! You have completed all the current tasks");
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
-    const card1 = document.getElementById("swift").innerText;
+    const title = document.getElementById("swift").innerText;
 
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
     act.appendChild(para);
   } else {
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
 
-    const card1 = document.getElementById("swift").innerText;
+    const title = document.getElementById("swift").innerText;
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
 
     act.appendChild(para);
@@ -148,23 +148,23 @@ document.getElementById("btn-4").addEventListener("click", function (event) {
     alert("Congrats!!! You have completed all the current tasks");
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
-    const card1 = document.getElementById("meta").innerText;
+    const title = document.getElementById("meta").innerText;
 
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
     act.appendChild(para);
   } else {
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
 
-    const card1 = document.getElementById("meta").innerText;
+    const title = document.getElementById("meta").innerText;
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
 
     act.appendChild(para);
@@ -186,23 +186,23 @@ document.getElementById("btn-5").addEventListener("click", function (event) {
     alert("Congrats!!! You have completed all the current tasks");
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
-    const card1 = document.getElementById("google").innerText;
+    const title = document.getElementById("google").innerText;
 
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
     act.appendChild(para);
   } else {
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
 
-    const card1 = document.getElementById("google").innerText;
+    const title = document.getElementById("google").innerText;
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
 
     act.appendChild(para);
@@ -224,23 +224,23 @@ document.getElementById("btn-6").addEventListener("click", function (event) {
     alert("Congrats!!! You have completed all the current tasks");
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
-    const card1 = document.getElementById("glass").innerText;
+    const title = document.getElementById("glass").innerText;
 
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
     act.appendChild(para);
   } else {
     document.getElementById("nav-c").innerText = intNavC + 1;
     document.getElementById("task-c").innerText = intTaskC - 1;
 
-    const card1 = document.getElementById("glass").innerText;
+    const title = document.getElementById("glass").innerText;
     const act = document.getElementById("activity");
     const para = document.createElement("p");
     const time = currentTime();
-    para.innerText = `You have completed the task ${card1} at ${time}`;
+    para.innerText = `You have completed the task ${title} at ${time}`;
     para.classList.add( "text-base", "font-normal", "bg-[#F4F7FF]", "p-5", "mb-5", "rounded-lg");
 
     act.appendChild(para);
